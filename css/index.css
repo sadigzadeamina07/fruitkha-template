@@ -4,8 +4,6 @@
 
 }
 .txt-orange{color:var(--narinci);}
-.bgorange{background-color: var(--narinci);}
-.borderorange{border:2px solid var(--narinci);}
 header{background:  linear-gradient(rgba(7, 33, 46, 0.6), rgba(7, 33, 46, 0.6)),  url('../img/hero-bg.jpg') center/cover;}
 .icon{border:2px dotted var(--narinci);
 width:65px;
@@ -16,13 +14,38 @@ height:65px;
         border-radius: 40px;
         color:var(--narinci);
     }
-    
+    header .card-title {
+        font-size: 3rem;     
+        font-weight: 700;
+      }
     .navbar-brand img {
         width: 150px;
         height: 50px;
-        object-fit: contain; /* şəkil pozulmasın deyə */
+        object-fit: contain;
       }
- .nav-item  a:hover{color: var(--narinci) !important;;}
+      .buton1 {
+        background-color: var(--narinci)!important;
+        border: none !important;
+        color: #fff !important;
+      }
+      .buton1:hover {
+        background-color: var(--tundmavi) !important;
+        color: var(--narinci) !important;
+
+      }
+      
+      .buton2{
+        border: 2px solid var(--narinci)!important;
+        background: transparent!important;
+        color: #fff!important;
+      }
+      .buton2:hover {
+        background-color: var(--narinci)!important;
+        color: #fff!important ;
+      }
+      
+      
+ .nav-item  a:hover,.nav-item .active{color: var(--narinci) !important;}
 @media only screen and (min-width: 768px) {
 
 }
