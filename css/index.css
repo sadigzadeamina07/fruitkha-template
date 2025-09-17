@@ -3,9 +3,10 @@
 --tundmavi: rgb(7, 33, 46);
 
 }
-header{
-    background-color: rgba(7, 33, 46, 0.903)!important ;
-    background: url('../img/hero-bg.jpg') center/cover;}
+.txt-orange{color:var(--narinci);}
+.bgorange{background-color: var(--narinci);}
+.borderorange{border:2px solid var(--narinci);}
+header{background:  linear-gradient(rgba(7, 33, 46, 0.6), rgba(7, 33, 46, 0.6)),  url('../img/hero-bg.jpg') center/cover;}
 .icon{border:2px dotted var(--narinci);
 width:65px;
 height:65px;
@@ -21,7 +22,7 @@ height:65px;
         height: 50px;
         object-fit: contain; /* şəkil pozulmasın deyə */
       }
- .nav-item .nav-link:hover,.nav-item .nav-link.active{color:var(--narinci);}
+ .nav-item  a:hover{color: var(--narinci) !important;;}
 @media only screen and (min-width: 768px) {
 
 }
